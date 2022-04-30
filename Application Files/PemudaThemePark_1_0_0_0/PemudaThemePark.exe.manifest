@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PemudaThemePark.exe" version="1.0.0.0" publicKeyToken="359eabb123c9f35f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PemudaThemePark" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PemudaThemePark.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PemudaThemePark.exe" size="4751312">
+      <assemblyIdentity name="PemudaThemePark" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KUXrsie+2mo+QtrdhCkNgvAPSSRDD7aN9uTsAZt/7go=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PemudaThemePark.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j5XMowm9qYcyNWR87Ke1KpLLXBlaYAR38CaZywZFE9o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-ESOSL5M\pc" issuerKeyHash="2cf7191e3c42575345575f794b23bbfca725576a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>h0VEEq0XWEqB5mdbA8MeJbZTplVp2NdiTjIIoKFC9vA=</DigestValue></Reference></SignedInfo><SignatureValue>RQlRA5j38vjPwUAL5y1btW7CCLwlAN8tQjiDYSbBYcBgef0G04OtNg34wC/Cvdrm+2jqxjJQQ49QC67rliA6xEesufZ7VFEAV8c0qiP8mUIUKdLLJ26XP1cjFJxYRAk8GLnaU6fg3M5qs6cAvtV0A2rIfcNvnTYc4zgwdtNVlP0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pQVaPPKiOEJ/aubQWADtS5GAo8S/iUn1pwnPZTS7NDXRubzdZgbfkPIn8vtqZNWoRFasyzZHAr6NXFDeNf3S9jcxrirWJYy7LQ8rSRDEC/9MRcgtQo12eozk/cYkwDpSQwjMx2Cz9ODxntYhVSn9qWhXya9zPAoQI1KFWy3GVes=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f0f642a1a008324e62d7d86955a653b6251ec3035b67e6814a5817ad12444587" Description="" Url=""><as:assemblyIdentity name="PemudaThemePark.exe" version="1.0.0.0" publicKeyToken="359eabb123c9f35f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-ESOSL5M\pc</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sepFaVGucT1EJ1zN2iCoLNG/M+89btAn/LlBZiUGK8c=</DigestValue></Reference></SignedInfo><SignatureValue>XUMwCg/5mkhqWaHXWU0diMUmiOLmSNhnkW9kHnjGiZoWSC18Jh8KWGlK0LIPIvuphkEVs/6GBHuFflRiqDcQ6NtYb7gkZdWju09RmLsYgRXCzmXtADXhRvSf6La0Lt9Cp1sCptJHP3dgeUFm0T5+I1aa4GcFA3H+kwTCWolmzgw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pQVaPPKiOEJ/aubQWADtS5GAo8S/iUn1pwnPZTS7NDXRubzdZgbfkPIn8vtqZNWoRFasyzZHAr6NXFDeNf3S9jcxrirWJYy7LQ8rSRDEC/9MRcgtQo12eozk/cYkwDpSQwjMx2Cz9ODxntYhVSn9qWhXya9zPAoQI1KFWy3GVes=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQGoLMuGxWDKlLNOKpADNnRTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEUAUwBPAFMATAA1AE0AXABwAGMwHhcNMjAwOTExMDgwMDMyWhcNMjEwOTExMTQwMDMyWjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEUAUwBPAFMATAA1AE0AXABwAGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKUFWjzyojhCf2rm0FgA7UuRgKPEv4lJ9acJz2U0uzQ10bm83WYG35DyJ/L7amTVqERWrMs2RwK+jVxQ3jX90vY3Ma4q1iWMuy0PK0kQxAv/TEXILUKNdnqM5P3GJMA6UkMIzMdgs/Tg8Z7WIVUp/aloV8mvczwKECNShVstxlXrAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAoz9Iim8h+2colODS7zvxKGGTsWla+1gTsWYMFOeQ7dN9V0dEGADShjQRbXvIV8/AmwRbGRRNKDteVV/KDAnhgxq7EExx7OB/rpZt20RNlw3rMzICkEvz8oJP/WBI21cA06DcVezvkSUzHlrE1pN5iJz71PpfGfvdERTtT99w3i0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
