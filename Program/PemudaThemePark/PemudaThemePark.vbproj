@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44BE7171-7342-465D-9D82-AD92F5A4A4A0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PemudaThemePark.My.MyApplication</StartupObject>
+    <RootNamespace>PemudaThemePark</RootNamespace>
+    <AssemblyName>PemudaThemePark</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Coding\Materi LKS IT software aplication\Latihan Bu Desti\1\Pemuda Theme Park\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PemudaThemePark.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PemudaThemePark.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8096C9EEE8E11BDB7A832BC4CAC1A02622DD4A1D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PemudaThemePark_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin Navigation.Designer.vb">
+      <DependentUpon>Admin Navigation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Navigation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance.Designer.vb">
+      <DependentUpon>Attendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change Password.Designer.vb">
+      <DependentUpon>change Password.vb</DependentUpon>
+    </Compile>
+    <Compile Include="change Password.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageGaji.Designer.vb">
+      <DependentUpon>ManageGaji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageGaji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jadwal.Designer.vb">
+      <DependentUpon>Jadwal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JoinMember.Designer.vb">
+      <DependentUpon>JoinMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JoinMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KonfirmasiTiket.Designer.vb">
+      <DependentUpon>KonfirmasiTiket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KonfirmasiTiket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lihat jadwal.Designer.vb">
+      <DependentUpon>Lihat jadwal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lihat jadwal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageGames.Designer.vb">
+      <DependentUpon>ManageGames.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageGames.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePegawai.Designer.vb">
+      <DependentUpon>ManagePegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MembershipPlan.Designer.vb">
+      <DependentUpon>MembershipPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MembershipPlan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUtama.Designer.vb">
+      <DependentUpon>MenuUtama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PegawaiNavigation.Designer.vb">
+      <DependentUpon>PegawaiNavigation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PegawaiNavigation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penggajian.Designer.vb">
+      <DependentUpon>Penggajian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Penggajian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report Gaji.Designer.vb">
+      <DependentUpon>Report Gaji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report Gaji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket.Designer.vb">
+      <DependentUpon>Ticket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ticket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketPurchase.Designer.vb">
+      <DependentUpon>TicketPurchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TicketPurchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin Navigation.resx">
+      <DependentUpon>Admin Navigation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance.resx">
+      <DependentUpon>Attendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change Password.resx">
+      <DependentUpon>change Password.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageGaji.resx">
+      <DependentUpon>ManageGaji.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jadwal.resx">
+      <DependentUpon>Jadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JoinMember.resx">
+      <DependentUpon>JoinMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KonfirmasiTiket.resx">
+      <DependentUpon>KonfirmasiTiket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lihat jadwal.resx">
+      <DependentUpon>Lihat jadwal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageGames.resx">
+      <DependentUpon>ManageGames.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagePegawai.resx">
+      <DependentUpon>ManagePegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MembershipPlan.resx">
+      <DependentUpon>MembershipPlan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUtama.resx">
+      <DependentUpon>MenuUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PegawaiNavigation.resx">
+      <DependentUpon>PegawaiNavigation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penggajian.resx">
+      <DependentUpon>Penggajian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report Gaji.resx">
+      <DependentUpon>Report Gaji.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ticket.resx">
+      <DependentUpon>Ticket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketPurchase.resx">
+      <DependentUpon>TicketPurchase.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PemudaThemePark_TemporaryKey.pfx" />
+    <None Include="Resources\backward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wanda_Hefei_Theme_Park_JoraVision+4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventureland-5aafd0ec8023b90036bef773.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DSC_0773.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HTB1yxd_kwvD8KJjSsplq6yIEFXat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DSC_07731.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HTB1yxd_kwvD8KJjSsplq6yIEFXat1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\U4A2297-770x430.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wanda_Hefei_Theme_Park_JoraVision+41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
