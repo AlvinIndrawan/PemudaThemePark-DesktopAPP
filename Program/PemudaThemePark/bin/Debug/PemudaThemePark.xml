@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PemudaThemePark
+</name>
+</assembly>
+<members>
+<member name="T:PemudaThemePark.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.adventureland_5aafd0ec8023b90036bef773">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.backward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.DSC_0773">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.DSC_07731">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.HTB1yxd_kwvD8KJjSsplq6yIEFXat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.HTB1yxd_kwvD8KJjSsplq6yIEFXat1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.printer_off">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.U4A2297_770x430">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.Wanda_Hefei_Theme_Park_JoraVision_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PemudaThemePark.My.Resources.Resources.Wanda_Hefei_Theme_Park_JoraVision_41">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
